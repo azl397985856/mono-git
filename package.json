@@ -27,5 +27,9 @@
     "jest": "^23.6.0",
     "typescript": "^3.0.3",
     "typescript-eslint-parser": "^18.0.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
