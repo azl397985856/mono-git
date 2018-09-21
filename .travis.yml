@@ -1,6 +1,8 @@
 # 指定语言 https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 language: node_js
 # 缓存 node_modules 文件夹，不需要每次都下载安装全部 npm 包。
+env:
+  - CODECOV_TOKEN="8bfc07e5-3eec-438a-bea1-7e893a6c41dc"
 cache:
   directories:
     - node_modules
